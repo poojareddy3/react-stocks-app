@@ -1,0 +1,91 @@
+.app{
+    display: flex;
+    width: 425px;
+    background-color: black;
+    color: #fff;
+    
+}
+.screen{
+    color: white;
+    padding: 5px;
+    position: relative;
+}
+.title{
+  padding: 5px;
+  background-color: black;
+  width: 400px;
+  margin: 0 auto;
+  padding-bottom: 150px;
+  border-radius: 5px;
+  margin-top: 50px;
+}
+h1{
+  background-color: rgb(51, 49, 49);
+  margin: 2px auto;
+  width: 390px;
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 0;
+  color: #fff;
+}
+input{
+    background-color: rgb(51, 49, 49);
+    display: block;
+    font-size: 15px;
+    padding: 13px 0 10px 10px;
+    width: 375px;
+    color: #fff;
+    margin: 20px auto;
+    border-radius: 10px;
+    text-align: center;
+}
+.display{
+    display: flex;
+    font-size: 13px;
+    margin: 0;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.stocks{
+    top: 10px;
+    position: relative;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 5px;
+    background-color: rgb(2, 2, 2);
+}
+.leftDiv{ 
+    /* margin: 10px 10px 10px 10px; */
+    float: left;
+    text-align: left;
+    margin-left:10px;
+}
+.rightDiv {
+    /* float: right;
+     margin-right:10px;
+    margin: 10px 10px 10px 10px; */
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}
+h5{
+    color: gray;
+}
+span{
+    display: block;
+    width: 48px;
+    height: 18px;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 4px; 
+    font-size: 12.5px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.changeGreen{
+    background-color: green;
+}
+.changeRed{
+    background-color: red;
+}
